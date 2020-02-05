@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en, pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sit on Chair</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="top">
+        <div class="main_width">
+            <p class="logo"><a href="#">Sit <span class="greentext bold">on</span> chair</a></p>
+            <ul class="menu">
+                <li><a>O firmie</a>
+                    <ul class="dropdown">
+                        <li><a href="">Aktualności</a></li>
+                        <li><a href="">Nasz team</a></li>
+                        <li><a href="">Historia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#photos">Galeria</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="carousel">
+        <div class="main_width">
+            <div class="slider">
+                <div id="prevSlide"><i class="fas fa-angle-left"></i></div>
+                <div class="slide">
+                    <div class="post">
+                        <div class="post_image"><img src="images/black_chair.png" alt="Czarne krzesło"></div>
+                        <div class="post_content">
+                            <h1>Sit <span class="greentext">on</span> our <span class="greentext bold">chair</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dolore! Veritatis facilis reiciendis deleniti sunt fuga, quae accusantium voluptas atque suscipit saepe perferendis.
+                            </p>
+                            <button>Zobacz więcej</button>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post_image"><img src="images/orange_chair.png" alt="Pomarańczowe krzesło"></div>
+                        <div class="post_content">
+                            <h1>Sit <span class="greentext">on</span> our <span class="greentext bold">chair</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, dolore! Veritatis facilis reiciendis deleniti sunt fuga, quae accusantium voluptas atque suscipit...
+                            </p>
+                            <button>Zobacz więcej</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="nextSlide"><i class="fas fa-angle-right"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photos">
+        <div class="main_width">
+            <div class="left-box">
+                <div class="opacity_box">
+                    <h3>Chair CLAIR</h3>
+                </div>
+            </div>
+            <div class="middle-box">
+                <div class="opacity_box">
+                    <h3>Chair MARGARITA</h3>
+                </div>
+            </div>
+            <div class="right-box">
+                <h3>Finds all inputs</h3>
+                <p>Lorizzle that's the shizzle dolizzle pot amizzle, we gonna chung adipiscing elit. Dizzle sapizzle velit, funky fresh volutpizzle, suscipizzle quizzle, gravida vizzle, own yo'.</p>
+                <p>Lorizzle that's the shizzle dolizzle pot amizzle, we gonna chung adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="main_width">
+            <div class="price_title">
+                <h2>Cennik</h2>
+            </div>
+            <!-- element z ceną 1-->
+            <div class="offer_boxes">
+                <div class="big_box">
+                    <div class="big_circle">
+                        <div class="small_circle"></div>
+                    </div>
+                    <h3>basic plan</h3>
+                    <div class="price_circle">
+                        <p class="price">85<sup>99</sup></p>
+                    </div>
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                    </ul>
+                    <button>Dołącz</button>
+                </div>
+                <!-- element z ceną 2-->
+                <div class="big_box">
+                    <div class="big_circle">
+                        <div class="small_circle"></div>
+                    </div>
+                    <h3>standard plan</h3>
+                    <div class="price_circle">
+                        <p class="price">95<sup>99</sup></p>
+                    </div>
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                        <li>Gwarancja 5 lat</li>
+                    </ul>
+                    <button>Dołącz</button>
+                </div>
+                <!-- element z ceną 3-->
+                <div class="big_box">
+                    <div class="big_circle">
+                        <div class="small_circle"></div>
+                    </div>
+                    <h3>advanced plan</h3>
+                    <div class="price_circle">
+                        <p class="price">211<sup>00</sup></p>
+                    </div>
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                        <li>Gwarancja 6 lat</li>
+                        <li>Porady projektanta</li>
+                    </ul>
+                    <button>Dołącz</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="main_width">
+            <div class="form_title">
+                <h2>Kontakt</h2>
+            </div>
+            <form>
+                <div class="form_content">
+                    <input type="text" placeholder="Imię">
+                    <input type="email" placeholder="email">
+                    <textarea placeholder="Wiadomość"></textarea>
+                </div>
+                <div class="form_right">
+                    <div class="form_image"></div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="d1">
+                        <label for="d1">Zgadzam się na przetwarzanie danych osobowych</label>
+                    </div>
+                    <input type="submit" id="submit" value="Wyślij">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main_width">
+            <p class="copyrights">Copyright 2014 | All Rights Reserved - Sit On Chair</p>
+            <div class="social_media">
+                <a href=""><img src="images/flickr.png" alt="flickr"></a>
+                <a href=""><img src="images/vimeo.png" alt="vimeo"></a>
+                <a href=""><img src="images/pinterest.png" alt="pinterest"></a>
+                <a href=""><img src="images/twitter.png" alt="twitter"></a>
+            </div>
+            <p class="footer_logo"><a href="#">Sit <span class="bold">on</span> chair</a></p>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
